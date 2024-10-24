@@ -1,0 +1,46 @@
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    margin: auto;
+    background-color: #000000;
+}
+
+h1{
+   font-family:  "Tomorrow", sans-serif;;
+}
+
+h2 {
+    font-family: "tomorrow", sans-serif;
+    font-weight: lighter;
+}
+
+
+.tomorrow-medium {
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1ec800;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    filter: brightness(80%);
+    transition:filter 0.3s ease;
+}
+
+.gallery img:hover {
+    filter: brightness(150%);
+}
